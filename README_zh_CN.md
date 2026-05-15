@@ -331,7 +331,7 @@ Round 25（压缩后）：
 
 ```powershell
 # 1. 克隆仓库
-git clone https://github.com/your-username/openclaw-toolchain-adapter.git
+git clone https://github.com/MyBirdVery6/openclaw-toolchain-adapter.git
 cd openclaw-toolchain-adapter
 
 # 2. 一键安装
