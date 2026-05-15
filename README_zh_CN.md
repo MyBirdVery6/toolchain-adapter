@@ -12,7 +12,7 @@
 
 ## 为什么需要这个项目？
 
-当你尝试让 Claude Code、OpenHands、SWE-agent 等 AI Agent 框架调用本地运行的小模型（7B-14B）时，你会立刻撞上三堵墙：
+当你尝试让 Claude Code、AutoClaw 、Hermes 等 AI Agent 框架调用本地运行的小模型（7B-14B）时，你会立刻撞上三堵墙：
 
 ### 痛点一：协议不兼容
 
