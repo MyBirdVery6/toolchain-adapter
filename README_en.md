@@ -12,7 +12,7 @@
 
 ## Why Does This Project Exist?
 
-When you try to make AI Agent frameworks like Claude Code, OpenHands, or SWE-agent call locally-run small models (7B-14B parameters), you immediately hit three walls:
+When you try to make AI Agent frameworks like Claude Code, OpenClaw, AutoClaw, Hermes call locally-run small models (7B-14B parameters), you immediately hit three walls:
 
 ### Pain Point #1: Protocol Incompatibility
 
