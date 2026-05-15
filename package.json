@@ -1,0 +1,29 @@
+{
+  "name": "toolchain-adapter",
+  "version": "1.0.0",
+  "description": "OpenClaw/Claude Code ↔ LM Studio/llama.cpp 工具调用协议适配器 v1 (Windows 专用 / 多后端+SSD永久记忆+上下文提炼)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:ps": "powershell -ExecutionPolicy Bypass -File start.ps1",
+    "start:lmstudio": "node server.js",
+    "start:llamacpp": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/test-backend-adapter.js && node test/test-memory-store.js && node test/test-context-refiner.js",
+    "test:backend": "node test/test-backend-adapter.js",
+    "test:memory": "node test/test-memory-store.js",
+    "test:refiner": "node test/test-context-refiner.js",
+    "install:ps": "powershell -ExecutionPolicy Bypass -File install.ps1"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "axios": "^1.7.0",
+    "jsonrepair": "^3.12.0",
+    "uuid": "^10.0.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
