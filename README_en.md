@@ -483,7 +483,7 @@ OpenClaw Toolchain Adapter solves the most basic problem of Agents calling local
 - **Platform**: Windows 10/11 (PowerShell 5.1+)
 - **Backends**: LM Studio / llama.cpp
 - **Testing**: Node.js built-in assert + custom async test runner (70 TDD tests)
-- **License**: MIT
+- **License**: GNU General Public License v3.0
 
 ---
 
