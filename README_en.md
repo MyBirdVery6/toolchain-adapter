@@ -331,7 +331,7 @@ Round 25 (after compression):
 
 ```powershell
 # 1. Clone the repository
-git clone https://github.com/your-username/openclaw-toolchain-adapter.git
+git clone https://github.com/MyBirdVery6/openclaw-toolchain-adapter.git
 cd openclaw-toolchain-adapter
 
 # 2. One-click install
