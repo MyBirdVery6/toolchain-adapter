@@ -4,7 +4,7 @@
 
 **The Protocol Adapter That Makes Agents Actually Work with Local Small Models**
 
-中文 | [English](./README_en.md)
+ [中文](./README_zh_CN.md) | english
 
 </div>
 
